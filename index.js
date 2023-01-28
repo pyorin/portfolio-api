@@ -13,3 +13,5 @@ app.use(routes);
 app.listen(process.env.app_port, () => {
   console.log("server started!");
 });
+
+module.exports = app;
